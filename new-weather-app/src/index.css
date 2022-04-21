@@ -1,0 +1,155 @@
+
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+
+}
+
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app {
+
+  background-image: url("./images/cold.jpeg");
+  background-size:cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+
+}
+.app.warm {
+  background-image:url("./images/warm4.jpg");
+  
+
+}
+
+ 
+main{
+    min-height: 100vh;
+    background-image: linear-gradient(to botton rgba(0,0,0,0.2) rgba(0,0,0,0.75)) ;
+    padding: 25px;
+    
+}
+
+.search-box{
+  width:100%;
+  margin: 0 0 75px;
+  display:block; 
+    margin-left: 400px;
+    
+}
+
+.search-box .search-bar{
+
+  display:block;
+  width:100 vw;
+  padding: 15px;
+
+  appearance:none;
+  background: none;
+  color: none;
+  outline: none;
+
+
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 16px 16px 16px 16px ;
+  margin-top: 25px;
+
+  box-shadow: opx, 5px rgba(0,0,0,0.2);
+
+  color:darkblue;
+  font-size: 20px;
+
+  transition: 0.4s ease;
+
+}
+  .search-box .search-bar:focus {
+    background-color: rgba(255,255,255,0.75);
+
+  }
+
+   .location-box .location {
+
+    color: darkblue;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 3px 3px rgba(15, 15, 199, 0.281);
+   
+   } 
+
+  .location-box .date {
+      color:darkblue;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      
+  }
+
+
+  .location-box{
+
+    margin-right:400px;
+  }
+   
+  .weather-box {
+    text-align: center;
+    margin-right: 400px;
+    
+
+  }
+
+  .weather-box .temp {
+    position:relative;
+    display: inline-block;
+    margin: 30px auto;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 16px;
+    padding: 15px 25px;
+    color:darkblue;
+    font-size: 30px;
+    font-weight: 900;
+
+    text-shadow: 3px 6 px rgba(50,50,70,0.5);
+    text-align: center;
+    box-shadow: 3px 6px rgba(0,0,0,0.2);
+
+  }
+ 
+  .weather-box .weather {
+      color:darkblue;
+      font-size: 30px;
+      font-weight: 700;
+      text-shadow: 3px 6px rgba(15, 15, 199, 0.281);
+
+  }
+
+  .weather-box {
+     
+    color:darkblue;
+    font-weight:700;
+
+  }
+  
+ 
+span {
+
+  padding:50px;
+}
+.highlow{
+
+  padding:10px;
+}
+
+.feel{
+
+  padding:10px;
+
+}
+
+.pressure{
+
+  padding: 10px;
+}
+
